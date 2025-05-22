@@ -1,0 +1,34 @@
+localhost:8080/users
+{
+    "name": "Jordan"
+    "email": "jordan@gmail.com"
+    "password": "123456"
+    "phone": "3011234567"
+    "userType": "Teacher"
+}
+
+localhost:8080/teachers
+{
+    "speciality": "Administración",
+    "user": {
+        "id":"2"
+    }
+}
+
+localhost:8080/students
+{
+    "user":{
+        "id":"3"
+    },
+    "grade":"11",
+    "bornDate":"24-05-2005",
+    "direction":"cr1 #11d-22"
+}
+
+localhost:8080/courses
+{
+    "name": "Backend II",
+    "teacher": {
+        "id":"1"
+    }
+}
